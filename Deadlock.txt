@@ -47,3 +47,4 @@ public class Main
 	    d.func(); //This line executed by main thread
 	}
 }
+//Since all the methods four are synchronized, hence deadlock condition will occur
