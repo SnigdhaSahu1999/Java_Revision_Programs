@@ -11,7 +11,7 @@ class Synchronized_Method{
         }
     }
 }
-public class Main extends Thread
+public class SynchronizedMethodExample extends Thread
 {
 	public static void main(String[] args) {
 	    Synchronized_Method sm = new Synchronized_Method();
