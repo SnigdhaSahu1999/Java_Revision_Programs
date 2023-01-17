@@ -1,0 +1,17 @@
+class MyException extends Exception{
+    MyException(String s){
+        super(s);
+    }
+}
+class CustomException{
+    public static void main(String[] args){
+        try{
+            throw new MyException("Hi, this is a User defined exception");
+        }
+        catch(MyException e){
+           System.out.println("User defined exceptions need to be handled");
+           System.out.println(e.getMessage());
+         
+        }
+    }
+}
