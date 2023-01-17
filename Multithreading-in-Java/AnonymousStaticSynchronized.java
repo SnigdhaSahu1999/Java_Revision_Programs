@@ -11,7 +11,7 @@ class Static_Synchronized_Method{
         }
     }
 }
-class Main{
+class AnonymousStaticSynchronized{
     public static void main(String[] args){
         Thread t1 = new Thread(){
             public void run(){

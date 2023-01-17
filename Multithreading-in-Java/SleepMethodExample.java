@@ -1,4 +1,4 @@
-class Main implements Runnable{
+class SleepMethodExample implements Runnable{
     public void run(){
         for(int i=0;i<10;i++){
             System.out.println(Thread.currentThread().getName());
@@ -11,7 +11,7 @@ class Main implements Runnable{
         }
     }
     public static void main(String[] args){
-        Main m1 = new Main();
+        SleepMethodExample m1 = new SleepMethodExample();
         Thread t1 = new Thread(m1,"First");
         Thread t2 = new Thread(m1,"Second");
         Thread t3 = new Thread(m1,"Third");

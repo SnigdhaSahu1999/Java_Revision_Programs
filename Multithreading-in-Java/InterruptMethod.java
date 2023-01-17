@@ -9,7 +9,7 @@ class MyThread extends Thread{
        }
    }
 }
-class Main{
+class InterruptMethod{
     public static void main(String[] args){
         MyThread mt = new MyThread();
         mt.start();
