@@ -32,7 +32,7 @@ class MyThread2 extends Thread{
     }
 }
 
-class Main{
+class SynchronizedBlockExample{
     public static void main(String[] args){
         Synchronized_Block sb = new Synchronized_Block(); // Only single object i.e shared resource is created
         MyThread1 m1 = new MyThread1(sb);

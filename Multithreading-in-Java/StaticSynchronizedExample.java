@@ -21,7 +21,7 @@ class MyThread2 extends Thread{
         Static_Synchronized_Method.print();
     }
 }
-class Main{
+class StaticSynchronizedExample{
     public static void main(String[] args){
         MyThread1 t1 = new MyThread1(); // synchronized static works for different objects
         MyThread2 t2 = new MyThread2();// the thread gets class level lock in synchronized static
